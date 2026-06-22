@@ -2289,11 +2289,12 @@ Tabs.CreditsTab:DiscordInfo({
     Name = "Mark Hub |by Marcos",
     Banner = "rbxassetid://129197321392617",
     Icon = "rbxassetid://102268449481061",
-    Subtitle = "Mark Hub Script keeps things simple and smooth, with a clean interface and well-organized code that feels good to use.",
-    Online = 283,
-    Members = 6400,
+    Subtitle = "O Mark Hub Script mantém tudo simples e fluido, com uma interface limpa e um código bem organizado que proporciona uma ótima experiência de uso.",
+    Dono:Marcos
+    Online = 600,
+    Members = 17000,
     Callback = function()
-        setclipboard("https://discord.gg/m9UZrXvuZd")
+        setclipboard("NAO TEM LINK AINDA BY MARCOS")
         RelzUILib:Notify({
             Title = "Discord Invite",
             Desc = "Invite link copied to clipboard!"
