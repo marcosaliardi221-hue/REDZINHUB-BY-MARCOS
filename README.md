@@ -8,7 +8,7 @@ local Services = setmetatable({}, {
 
 
 local HttpService = Services.HttpService
-local FolderName = "Marcos Hub vip"
+local FolderName = "REDZIN HUB V1 | FEITO POR MARCOS"
 local FileName = "Settings.json"
 local FullPath = FolderName .. "/" .. FileName
 
@@ -2641,8 +2641,8 @@ end
 
 local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly/Ui/refs/heads/main/NewZynLib"))()
 local Window = bearlib:MakeWindow({
-    Title = "Zyn Hub | Farm",
-    SubTitle = "by Jaia",
+    Title = "REDZIN HUB V1 | FEITO POR MARCOS",
+    SubTitle = "criador marcos",
     SaveFolder = true,
     Image = "11354741327"
 })
