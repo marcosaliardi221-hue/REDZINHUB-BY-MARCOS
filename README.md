@@ -10766,7 +10766,7 @@ local function UpdatePlayerESP()
                         textLabel.Text = player.Name .. "\n" .. hpPercent .. "% " .. distance .. "M"
                         
                         if player.Team == game.Players.LocalPlayer.Team then
-                            textLabel.TextColor3 = Color3.new(0, 0, 255)
+                            textLabel.TextColor3 = Color3.new(255, 255, 255)
                         else
                             textLabel.TextColor3 = Color3.new(255, 0, 0)
                         end
@@ -10841,7 +10841,7 @@ local function UpdateFruitESP()
                     textLabel.TextYAlignment = Enum.TextYAlignment.Top
                     textLabel.BackgroundTransparency = 1
                     textLabel.TextStrokeTransparency = 0.5
-                    textLabel.TextColor3 = Color3.new(255, 255, 255)
+                    textLabel.TextColor3 = Color3.new(255, 0, 0)
                     
                     local distance = round((game.Players.LocalPlayer.Character.Head.Position - obj.Handle.Position).Magnitude / 3)
                     textLabel.Text = obj.Name .. "\n" .. distance .. "M"
