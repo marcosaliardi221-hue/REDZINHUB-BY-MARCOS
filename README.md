@@ -2290,7 +2290,6 @@ Tabs.CreditsTab:DiscordInfo({
     Banner = "rbxassetid://129197321392617",
     Icon = "rbxassetid://102268449481061",
     Subtitle = "O Mark Hub Script mantém tudo simples e fluido, com uma interface limpa e um código bem organizado que proporciona uma ótima experiência de uso.",
-    Dono:Marcos
     Online = 600,
     Members = 17000,
     Callback = function()
